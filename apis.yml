@@ -1,7 +1,26 @@
 aid: toasty
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/toasty.png
 name: Toasty
-description: Toasty is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Toasty (toasty.family, published by Wenose) is a French consumer mobile
+  application for responsible, sustainable, and ethical shopping. The app curates
+  committed brands and makes conscious consumption engaging through a gamified experience
+  of daily private sales, quizzes, challenges, gifts, and rewards. It reports a 4.9-star
+  rating across the app stores and more than 400,000 downloads. Toasty is a business-to-consumer
+  mobile product with no public developer program, API, or documentation surface at
+  this time; it was surfaced as a Techstars portfolio company and added to the API
+  Evangelist network as a lead. This profile captures its public identity and a live
+  domain-security probe.
 url: https://raw.githubusercontent.com/api-evangelist/toasty/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Mobile
+- Consumer
+- Shopping
+- Sustainability
+- Ecommerce
+- Retail
+- France
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +47,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/toasty-domain-security.yml
 - type: Website
   url: https://toasty.family/
+- type: MobileApp
+  name: Toasty on the App Store (iOS)
+  url: https://apps.apple.com/fr/app/toasty-shopping-responsable/id1567004589
+- type: MobileApp
+  name: Toasty on Google Play (Android)
+  url: https://play.google.com/store/apps/details?id=com.wenose&hl=fr
+- type: SocialMedia
+  name: Toasty on Instagram
+  url: https://www.instagram.com/toasty.family
+- type: Partners
+  name: Brand partnership registration form
+  url: https://26mykmptjuz.typeform.com/to/rr2h27o7
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
