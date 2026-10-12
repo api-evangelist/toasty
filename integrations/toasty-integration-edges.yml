@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/toasty/integrations
+- https://n8n.io/integrations/toasty/
+- https://composio.dev/toolkits/toasty
+- https://monid.ai/tools/toasty
+checked:
+- https://composio.dev/toolkits/toasty
+- https://monid.ai/tools/toasty
+- https://n8n.io/integrations/toasty/
+- https://zapier.com/apps/toasty/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
